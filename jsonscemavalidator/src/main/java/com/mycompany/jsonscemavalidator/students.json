@@ -1,0 +1,26 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "title": "students",
+    "description": "A student from Acme's catalog",
+    "type": "object",
+    "properties": {
+       
+        "name": {
+            "description": "Name of the product",
+            "type": "string"
+        },
+        "age": {
+            "type": "number",
+            "minimum": 0,
+            "maximum":31
+        },
+        "stream": {
+            "type": "string"
+        }
+,
+        "lol": {
+            "type": "string"
+        }
+    },
+    "required": ["name", "age", "stream"]
+}
